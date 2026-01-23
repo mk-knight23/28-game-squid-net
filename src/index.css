@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --squid-pink: #ED1B76;
+  --squid-teal: #00BFA6;
+  --squid-dark: #1A1A2E;
+  --squid-darker: #0F0F1A;
+  --squid-gold: #FFD93D;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: var(--squid-darker);
+  color: white;
+}
+
+.font-game {
+  font-family: 'Orbitron', monospace;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--squid-darker);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--squid-pink);
+  border-radius: 4px;
+}
+
+/* Glass effect */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Neon text effect */
+.neon-text {
+  text-shadow: 
+    0 0 5px var(--squid-pink),
+    0 0 10px var(--squid-pink),
+    0 0 20px var(--squid-pink);
+}
+
+.neon-text-teal {
+  text-shadow: 
+    0 0 5px var(--squid-teal),
+    0 0 10px var(--squid-teal),
+    0 0 20px var(--squid-teal);
+}
+
+/* Button styles */
+.btn-primary {
+  @apply px-8 py-4 bg-squid-pink text-white font-game font-bold text-lg rounded-lg
+         transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-squid-pink/50
+         active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+.btn-secondary {
+  @apply px-6 py-3 bg-transparent border-2 border-squid-teal text-squid-teal font-game font-medium
+         rounded-lg transition-all duration-300 hover:bg-squid-teal hover:text-white;
+}
+
+/* Light mode overrides */
+.light body {
+  background: #f0f0f5;
+  color: #1A1A2E;
+}
+
+.light .glass {
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
