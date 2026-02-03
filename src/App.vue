@@ -159,8 +159,7 @@ const themeIcon = computed(getThemeIcon)
               class="w-8 h-1 transition-all duration-500"
               :class="i <= gameStore.lives ? 'bg-squid-pink shadow-[0_0_8px_rgba(255,0,90,0.6)]' : 'bg-white/10'"
             ></div>
-          </div>
-        </div>
+
         <div class="flex flex-col items-end gap-4">
           <div class="flex gap-2">
             <button 
