@@ -1,5 +1,7 @@
 # 28-game-squid-net
 
+# 28-game-squid-net
+
 <p align="center">
   <img src="https://img.shields.io/badge/Vue%203-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" alt="Vue 3">
   <img src="https://img.shields.io/badge/TresJS-7D46F5?style=for-the-badge&logo=three.js&logoColor=white" alt="TresJS">
@@ -333,3 +335,68 @@ Three focused improvements to enhance replayability and convenience:
 ### Intentionally Rejected: Practice Mode Streaks
 I considered tracking streaks separately for Practice Mode. Rejected because practice mode is meant for learning without pressure. Tracking streaks there would make practice feel like "real" games, defeating the purpose. Practice remains stress-free.
 
+
+
+## ✨ Features
+
+This repository has been upgraded with the following features:
+
+1. **Add Vue 3 Composition API** ✅
+2. **Implement Pinia for state** ✅
+3. **Add Vue Router guards** ✅
+4. **Create composables** ✅
+5. **Add Teleport and Suspense** ✅
+6. **Implement v-model optimization** ✅
+7. **Add TypeScript support** ✅
+8. **Create reusable components** ✅
+9. **Add transitions and animations** ✅
+10. **Implement Vitest tests** ✅
+
+## 📸 Screenshots
+
+### Desktop View
+
+![Desktop View](../../github-upgrades/screenshots/28-game-squid-net-desktop.png)
+
+### Mobile View
+
+![Mobile View](../../github-upgrades/screenshots/28-game-squid-net-mobile.png)
+
+
+---
+
+## 🚀 Quick Start
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## 📦 Tech Stack
+
+- Modern web framework
+- Optimized for performance
+- Responsive design
+- Accessibility ready
+
+## 🛠️ Installation
+
+```bash
+git clone https://github.com/mk-knight23/28-game-squid-net.git
+cd 28-game-squid-net
+npm install
+```
+
+## 📝 License
+
+MIT
+
+---
+
+*Last updated: 2026-02-27*
