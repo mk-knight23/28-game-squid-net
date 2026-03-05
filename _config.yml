@@ -1,15 +1,5 @@
-# GitHub Pages Configuration
 theme: jekyll-theme-cayman
-title: 3D Survival Challenge Game
+title: game squid net
 description: Documentation for 28-game-squid-net
 baseurl: /28-game-squid-net
 url: https://mk-knight23.github.io
-
-# Navigation
-nav:
-  - title: Home
-    url: /
-  - title: Architecture
-    url: /architecture/
-  - title: API
-    url: /api/
